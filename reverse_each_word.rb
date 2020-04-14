@@ -1,6 +1,6 @@
 
 def reverse_each_word (phrase)
-  phrase1 = phrase.split(" ")
+  split_phrase = phrase.split(" ")
   
   
   

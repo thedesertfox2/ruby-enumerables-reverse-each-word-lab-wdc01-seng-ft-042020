@@ -1,5 +1,5 @@
-str = "Hello there, and how are you?"
-def reverse_each_word(str)
+array = "Hello there, and how are you?"
+def reverse_each_word(array)
   
-  str.reverse_each {|x| p x}
+  array.reverse_each {|x| p x}
 end

@@ -1,8 +1,8 @@
 
 def reverse_each_word (phrase)
   split_phrase = phrase.split(" ")
-  split_phrase.each {|x| x.reverse!}
-  split_phrase.join
+  split_phrase2 = split_phrase.each {|x| x.reverse!}
+  complete = split_phrase2.join()
   return split_phrase
  
 
